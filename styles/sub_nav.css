@@ -1,7 +1,11 @@
 /*subnav css*/
 
-.sub_nav>ul>li{
+.sub_nav>ul>li,
+.sub_nav p{
 	float:left;
+}
+
+.sub_nav>ul>li{
 	width:20%;
 	text-align:center;
 }
@@ -42,12 +46,13 @@
     transform-style: preserve-3d;
 }
 	/*  UPDATED! flip the pane when hovered */
-	.flip-container:hover .back{
-		transform: rotateY(0deg);
-	}
-	.flip-container:hover .front{
-	    transform: rotateY(180deg);
-	}
+.flip-container:hover .back{
+	transform: rotateY(0deg);
+}
+
+.flip-container:hover .front{
+    transform: rotateY(180deg);
+}
 
 .flip-container, .front, .back{
 	width: 100%;
