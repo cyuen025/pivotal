@@ -7,18 +7,17 @@
 <main>
 <div class="inner_wrapper content">
 	<div class="outer_div">
-		<h1>PROGRAMS</h1>
-	</div>
+		<h1>Programs</h1>
+	</div><!-- .outer_div -->
     <div class="inner_div">
     	<div class="subpage_subnav_div">
 			<?php include("templates/subpage_subnav.php"); ?>
-        </div><!-- end subpage_subnav_div -->
+        </div><!-- .subpage_subnav_div -->
         <div class="content_div">
         	<!-- content goes here -->
         	<h1 class="pg_title">Technical Web Designer (TWD)</h1>
 
-<img src='images/programs/twd.jpg' alt="grey keybord with gree buton 'Support'" width="300px" height="200px"/>
-
+            <img src='images/programs/twd.jpg' alt="grey keybord with gree buton 'Support'" width="300" height="200"/>
 
         	<p class="bold">The BCIT Technical Web Designer (TWD) Students are happy to help start-up companies and non-profit organizations who need web design work done.</p>
 
@@ -34,11 +33,10 @@
 
         	<p>Official BCIT Web Page for the Program <a href="http://www.bcit.ca/study/programs/6490cert">http://www.bcit.ca/study/programs/6490cert</a></p>
 
-
 			<!-- A quick link to allow user to jump to the form -->
 			<div class="apply_now">
                <a class="apply_now" href="#form"><div class="apply_button">Apply Now</div></a>
-            </div>
+            </div><!-- .apply_now -->
             <div class="clear"></div>
 
 			<h2>Skills</h2>
@@ -63,17 +61,17 @@
         	<h2>Types of projects that make for good student projects</h2>
 
         	<ul>
-        		<li>Re-Design of a current web site,</li>
-        		<li>Design of a completely new web site,</li>
+        		<li>Re-Design of a current web site</li>
+        		<li>Design of a completely new web site</li>
         		<li>Small to mid-size web site (5 - 40 pages) (sites in the hundreds or thousands of pages are just too large for the time frame of the project)</li>
-        		<li>Clients who are already prepared and have a solid idea of what they are looking for in their web sites and can make quick design decisions (again due to the short duration of the project, delays of a week or so can have serious impact on the students’ ability to finish the client project by the end of the course). </li>
+        		<li>Clients who are already prepared and have a solid idea of what they are looking for in their web sites and can make quick design decisions (again due to the short duration of the project, delays of a week or so can have serious impact on the students’ ability to finish the client project by the end of the course).</li>
         	</ul>
 
         	<h2>Types of projects that are not suitable for student projects</h2>
 
         	<ul>
-        		<li>Very large web sites (over a hundred pages),</li>
-        		<li>More backend database based projects (the students are front-end web designers, which means they learn the skills necessary to develop the part of the web site that people see as opposed to the parts that may run on a server such as a database system),</li>
+        		<li>Very large web sites (over a hundred pages)</li>
+        		<li>More backend database based projects (the students are front-end web designers, which means they learn the skills necessary to develop the part of the web site that people see as opposed to the parts that may run on a server such as a database system).</li>
         		<li>Web app like projects (think membership systems, application development...etc...)</li>
         		<li>Large scale online stores...</li>
         		<li>Clients who are unsure of what they want or require long approval processes for design decisions.</li>
@@ -96,7 +94,7 @@
         		<li>The Project Instructor will contact you in an email to arrange a personal meeting to determine whether the project is suitable. You will receive a short list of topics to think about before this meeting.</li>
         		<li>When the Project begins the students are asked to form groups of 2 - 4 and then they choose from a list of client projects made available to them. Essentially the students pick the client and not all projects are chosen.</li>
         		<li>If a project is selected by the students, the client receives an email from them to arrange a personal, so called discovery meeting where the Instructor will be present to ensure the success of the project.</li>
-        		<li>After the first meeting we ask you to regularly meet the group members (2-3 times),</li>
+        		<li>After the first meeting we ask you to regularly meet the group members (2-3 times).</li>
         		<li>At the end when the learners complete the site you will be asked to fill in a Student Evaluation Questionnaire to help the Project Instructor.</li>
         	</ol>
 
@@ -108,17 +106,11 @@
 
         	<p>We give the learners as much help as possible and closely supervise them, but in some cases the website will not be a hit, but a miss.</p>
 
-
-
 			<!-- Added empty tag to allow Apply Now to jump to this form -->
         	<h2 id="form"></h2>
-
-
-
         	<!-- Form field-->
             <?php
                 $name = "Beata Kozma";
-                //$_SESSION["emailTo"] = "beata_kozma@bcit.ca";
                 $_SESSION["emailTo"] = "ljw6632@gmail.com";
                 if(isset($_SESSION["error"]) && $_SESSION["error"] != ""){
                     echo "<p class=\"form_msg\" id=\"form_msg\">" . $_SESSION["error"] . "</p>";
@@ -127,8 +119,8 @@
                 include("templates/application_form_twd.php");
             ?>
         	<!-- End form-->
-        </div><!-- end content_div -->
-    </div><!-- end inner_div -->
+        </div><!-- .content_div -->
+    </div><!-- .inner_div -->
  
 <?php
 	include("templates/footer.php");
