@@ -17,10 +17,6 @@
 	letter-spacing: 10px;
 }
 
-.outer_div h1,
-.htp_content h2{
-	text-transform: uppercase;
-}
 /*End .outer_div style*/
 
 /*.inner_div style*/
@@ -37,7 +33,6 @@
 .htp_content_tablet{
 	float:left;
 	width:33%;
-	box-sizing:border-box;
 	padding:20px 10px 20px 10px;
 	text-align:justify;
 }

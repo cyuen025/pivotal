@@ -20,7 +20,16 @@ p{
 	text-align:justify;
 }
 
-.flipper, .front, .back{
+h1,
+.htp_content h2{
+	text-transform: uppercase;
+}
+
+.flipper, 
+.front, 
+.back,
+.htp_content,
+.htp_content_tablet{
 	box-sizing:border-box;
 }
 
