@@ -1,0 +1,225 @@
+@media screen and (max-width:580px){
+	body {
+		background-image: none;
+	}
+	header{
+		height:50px;
+	}
+	header .nav_items{
+		display:none;
+	}
+	header .slogan{
+		top:0;
+		line-height:50px;
+		left:20%;
+		font-size: 15px;
+	}
+	header nav a {
+		font-size: 23px;
+		line-height: 50px;
+		padding: 0;
+	}
+	.home_link_container {
+		height: 32px;
+	}
+	.home_link_main_text {
+		font-size: 30px;
+		line-height:30px;
+	}
+	.small_tablet_nav{
+		display:block;
+		height:40px;
+	}
+	.small_tablet_nav li:nth-child(5){
+		border-right:none;
+	}
+	.small_tablet_nav li:nth-child(6){
+		clear:both;
+	}
+	.small_tablet_nav li:nth-child(6),
+	.small_tablet_nav li:nth-child(7),
+	.small_tablet_nav li:nth-child(8),
+	.small_tablet_nav li:nth-child(9),
+	.small_tablet_nav li:nth-child(10){
+		border-top:1px solid #4972BB;
+	}
+	.inner_wrapper {
+		min-width: 100%;
+		padding: 0;
+	}
+	.inner_div .htp_content,
+	.htp_content_tablet,
+	.htp_content_tablet a{
+		float:none;
+		width:100%;
+	}
+	.htp_content_tablet{
+		display:none;
+	}
+	.htp_content:first-child{
+		border-top:0;
+	}
+	.htp_content{
+		clear:both;
+		height:auto;
+		border-top:2px solid #c3c3c3;
+		overflow:auto;
+	}
+	.htp_content:nth-child(2){
+		display:block;
+	}
+	.inner_div .htp_content a{
+		float:left;
+		width:27%;
+	}
+	.htp_content p{
+		float:right;
+		width:70%;
+		margin:0;
+	}
+	body.pg_programs .subpage_subnav_div,
+	body.pg_nasp .subpage_subnav_div, 
+	body.pg_oat .subpage_subnav_div, 
+	body.pg_ssd .subpage_subnav_div, 
+	body.pg_tsp .subpage_subnav_div, 
+	body.pg_twd .subpage_subnav_div {
+		display:none;
+	}
+	body.pg_programs .content_div, 
+	body.pg_nasp .content_div, 
+	body.pg_oat .content_div, 
+	body.pg_ssd .content_div, 
+	body.pg_tsp .content_div, 
+	body.pg_twd .content_div {
+		width: 100%;
+		padding: 20px;
+	}
+	body.pg_nasp .content_div .pg_title, 
+	body.pg_oat .content_div .pg_title, 
+	body.pg_ssd .content_div .pg_title, 
+	body.pg_tsp .content_div .pg_title, 
+	body.pg_twd .content_div .pg_title {
+		font-size: 20px;
+	}
+	.content_div p{
+		font-size:14px;
+	}
+	.content_div h2{
+		font-size:20px;
+	}
+	.content_div li {
+		font-size: 14px;
+	}
+	.front .nav_tablet,
+	.front hr,
+	.front p{
+		display:none;
+	}
+	.sub_nav .flip-container a{
+		height:90px;
+	}
+	.flip-container, .front, .back{
+		height: 90px;
+	}
+	.sub_nav li a,
+	.sub_nav .flipper{
+		height: 90px;
+	}
+	.sub_nav h2 {
+		font-size: 25px;
+	}
+	
+	.mobile_sub_nav_spacer {
+		height: 20px;
+		background-color: rgba(0,43,94,0.8);
+	}
+	
+	body.pg_nasp .content_div ul li, 
+	body.pg_oat .content_div ul li, 
+	body.pg_ssd .content_div ul li, 
+	body.pg_tsp .content_div ul li, 
+	body.pg_twd .content_div ul li{
+		padding:2px;
+	}
+	footer{
+		height:40px;
+	}
+	footer p{
+		line-height:40px;
+	}
+	footer nav li:nth-child(1),
+	footer nav li:nth-child(2),
+	footer nav li:nth-child(8),
+	footer nav li:nth-child(9),
+	footer nav li:nth-child(10){
+		display:none;
+	}
+
+	footer img{
+		height:30px;
+		width:auto;
+		margin-right:20px;
+	}
+	.outer_div{
+		height:61px;
+		background-color: rgb(61, 121, 197);
+	}
+	.outer_div .mobile_footer_nav{
+		display:block;
+	}
+	.outer_div .mobile_footer_nav a{
+		display:block;
+	}
+
+	.outer_div .mobile_footer_nav li:first-child,
+	.outer_div .mobile_footer_nav li:nth-child(2),
+	.outer_div .mobile_footer_nav li:nth-child(3),
+	.outer_div .mobile_footer_nav li:nth-child(4){
+		width:25%;
+	}
+	.outer_div .mobile_footer_nav li:nth-child(4){
+		border-right:0;
+	}
+	.outer_div .mobile_footer_nav li:nth-child(5){
+		clear:both;
+	}
+	.outer_div .mobile_footer_nav li:nth-child(5),
+	.outer_div .mobile_footer_nav li:nth-child(6),
+	.outer_div .mobile_footer_nav li:nth-child(7),
+	.outer_div .mobile_footer_nav li:nth-child(8),
+	.outer_div .mobile_footer_nav li:nth-child(9){
+		width:20%;
+		border-top:1px solid #fff;
+	}
+
+
+	/* contact styles */
+	
+	.pg_contact .card:first-child, 
+	.pg_contact .card:nth-child(3),
+	.pg_contact .card:nth-child(2), 
+	.pg_contact .card:nth-child(4) {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.pg_contact .card{
+		width:100%;
+		max-width: 400px;
+	}
+	.pg_contact .card p:nth-of-type(2), 
+	.pg_contact .card p:nth-of-type(3), 
+	.pg_contact .card p:nth-of-type(4) {
+		margin-left:0;
+		padding-left:20%;
+		text-align:left;
+	}
+	.pg_contact .card h4 {
+		text-align: center;
+		margin: 11px 0;
+		padding-left:15%;
+	}
+	
+	/* end contact styles */
+	
+}

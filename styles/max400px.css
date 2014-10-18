@@ -1,0 +1,53 @@
+@media screen and (max-width:400px){
+	.radio legend, form label {
+		font-size: 13px;
+	}
+	.radio label {
+		font-weight: normal;
+		margin-right: 5%;
+		font-size:12px;
+	}
+	#submit {
+		font-size: 12px;
+	}
+	body.pg_programs .content_div img, 
+	body.pg_nasp .content_div img, 
+	body.pg_oat .content_div img, 
+	body.pg_ssd .content_div img, 
+	body.pg_tsp .content_div img, 
+	body.pg_twd .content_div img {
+		width: 100%;
+		height: auto;
+		margin-bottom:20px;
+	}
+	.pg_faq .icon-faq {
+		padding-right: 8px;
+		font-size: 15px;
+	}
+	.faq .faq_side li {
+		padding-left:1%;
+	}
+
+	.twd_projects li:first-child, 
+	.twd_projects li:nth-child(3),
+	.twd_projects li:nth-child(2),
+	.twd_projects li:nth-child(4) {
+		float: none;
+		margin-bottom: 20px;
+		width:100%;
+		height:auto;
+	}
+	.twd_projects li {
+		padding-bottom: 0;
+	}
+	.outer_div .mobile_footer_nav li a {
+		font-size:13px;
+	}
+	footer p {
+		font-size: 10px;
+		padding-left:10px;
+	}
+	footer img {
+		margin-right: 10px;
+	}
+}

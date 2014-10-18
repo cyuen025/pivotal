@@ -1,0 +1,144 @@
+/*main css*/
+
+/*.outer_div style*/
+.outer_div{
+	background-color: rgba(29,94,176,0.8);
+	height:30px;
+	clear:both;
+}
+.outer_div:first-child{
+	height:50px;
+}
+.outer_div h1{
+	color:#fff;
+	line-height:50px;
+	text-indent:50px;
+	font-size: 20px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+/*End .outer_div style*/
+
+/*.inner_div style*/
+.inner_div{
+	min-height:579px;
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.95);
+}
+
+/*End .inner_div style*/
+
+/*.htp_content style*/
+.htp_content,
+.htp_content_tablet{
+	float:left;
+	width:33%;
+	box-sizing:border-box;
+	padding:20px 10px 20px 10px;
+	text-align:justify;
+}
+
+.htp_content h2,
+.htp_content_tablet h2,
+.htp_content span,
+.htp_content_tablet span{
+	text-align:center;
+	color: #183966;
+}
+
+.htp_content h2,
+.htp_content_tablet h2{
+	font-size:25px;
+	font-weight: bold;
+}
+
+.htp_content span,
+.htp_content_tablet span{
+	display: block;
+	font-size:75px;
+	margin:20px 0;
+}
+
+.htp_content p,
+.htp_content_tablet p{
+	text-indent: 20px;
+	margin: 0 10px 20px 15px;
+}
+
+.htp_content .tablet,
+.htp_content_tablet{
+	display:none;
+}
+
+.content_div p,
+.htp_content h2,
+.htp_content_tablet h2{
+	margin-bottom:20px;
+}
+
+/*End .htp_content style*/
+
+/*.content_div style*/
+.content_div {
+	padding: 35px 50px;
+}
+
+.content_div li,
+.content_div table,
+.content_div a{
+	font-family: 'Oxygen', sans-serif;
+}
+
+.content_div li,
+.content_div table,
+.content_div a,
+.content_div p,
+.htp_content p,
+.htp_content_tablet p {
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.content_div h2,
+.content_div h3{
+	margin-bottom: 15px;
+	line-height: 1.3;
+}
+.content_div h1 {
+	font-size: 30px;
+	color: #033c89;
+	margin-bottom: 30px;
+}
+
+.content_div h2 {
+	font-size: 24px;
+	color: #1d5eb0;
+}
+
+.content_div h3 {
+	font-size: 20px;
+	color: #0182cf;	
+}
+
+.content_div a {
+	color: #da5200;
+}
+
+.content_div a:hover,
+.content_div a:focus,
+.content_div a:active {
+	color: #f79756;
+}
+
+.content_div .bold {
+	color: #001c62;
+}
+
+.content_div .mailing_address,
+.content_div .bold {
+	font-weight: bold;	
+}
+
+/*End .content_div style*/
+
+/*End main css*/

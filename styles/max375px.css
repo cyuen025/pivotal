@@ -1,0 +1,5 @@
+@media screen and (max-width:375px){
+	form legend {
+		font-size: 12px;
+	}
+}

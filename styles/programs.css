@@ -1,0 +1,333 @@
+/* CSS Document */
+
+/***************************************************/
+/******* common styles for all program pages *******/
+/***************************************************/
+body.pg_programs .content_div img,
+body.pg_nasp .content_div img,
+body.pg_oat .content_div img,
+body.pg_ssd .content_div img,
+body.pg_tsp .content_div img,
+body.pg_twd .content_div img {
+	float: right;
+	margin: 5px 0 15px 30px;
+	box-shadow: 2px 3px 12px;
+}
+
+body.pg_nasp .content_div .pg_title,
+body.pg_oat .content_div .pg_title,
+body.pg_ssd .content_div .pg_title,
+body.pg_tsp .content_div .pg_title,
+body.pg_twd .content_div .pg_title {
+	color: #183966;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'oswaldbold'
+	}
+
+body.pg_programs .content_div h2,
+body.pg_nasp .content_div h2,
+body.pg_oat .content_div h2,
+body.pg_ssd .content_div h2,
+body.pg_tsp .content_div h2,
+body.pg_twd .content_div h2 {
+	margin-top: 20px;
+	font-family: 'oswaldbold'
+}
+
+
+body.pg_nasp .content_div ul,
+body.pg_oat .content_div ul,
+body.pg_ssd .content_div ul,
+body.pg_tsp .content_div ul,
+body.pg_twd .content_div ul {
+	margin-bottom: 20px;
+}
+
+body.pg_nasp .content_div ul li,
+body.pg_oat .content_div ul li,
+body.pg_ssd .content_div ul li,
+body.pg_tsp .content_div ul li,
+body.pg_twd .content_div ul li {
+	padding: 5px;
+	list-style-type: disc;
+	margin-left: 7%;
+	
+}
+
+body.pg_programs .content_div p,
+body.pg_nasp .content_div p,
+body.pg_oat .content_div p,
+body.pg_ssd .content_div p,
+body.pg_tsp .content_div p,
+body.pg_twd .content_div p {
+	line-height: 1.5;
+	text-align: justify;
+	margin-bottom: 10px;
+	}
+
+
+body.pg_programs .content_div h4,
+body.pg_nasp .content_div h4,
+body.pg_oat .content_div h4,
+body.pg_ssd .content_div h4,
+body.pg_tsp .content_div h4,
+body.pg_twd .content_div h4 {
+	color: rgb(62, 88, 155);
+	font-size: 16px;
+	font-family: 'oswaldbold';
+	margin-top: 35px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+/***************************************************/
+/******** styles for programs overview page ********/
+/***************************************************/
+
+.pg_programs .content_div h2 {
+	margin-top: 30px;	
+}
+
+body.pg_programs .content_div a {
+	margin-bottom: 25px;
+	display: block;
+	background-color: #fff;
+	width: 110px;
+	height: 35px;
+	color: #0182cf;
+	line-height: 35px;
+	text-align: center;
+	border: 2px solid;
+}
+
+body.pg_programs .content_div a:hover,
+body.pg_programs .content_div a:focus,
+body.pg_programs .content_div a:active {
+	background-color: #dcf0ff;
+}
+
+.pg_programs .content_div h3 {
+	cursor: pointer;
+	width: 166px;
+}
+
+.pg_programs .content_div ul {
+	margin-bottom: 30px;	
+	display: none;	
+}
+
+.pg_programs .content_div li {
+	list-style-type: disc;	
+	margin-left: 30px;
+}
+
+/**************** table styles *******************/
+
+body.pg_programs .content_div table:first-child {
+	background: none;
+}
+
+body.pg_programs .content_div table {
+	width: 672px;
+	margin-bottom: 30px;
+	margin-top: 25px;
+   	border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+   	-webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;      
+}
+ 
+body.pg_programs .content_div table tr {
+    background: rgba(255,255,255,0.9);
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;    
+}    
+body.pg_programs .content_div table tr:first-child:hover {
+	background: none;
+}
+
+body.pg_programs .content_div table td,
+body.pg_programs .content_div table th {
+   border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;    
+}
+
+body.pg_programs .content_div table td {
+	padding: 10px 30px;
+}
+ 
+body.pg_programs .content_div table th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+	text-align: center;
+	font-weight: bold;
+}
+
+body.pg_programs .content_div table .tb_title{
+ background: none;
+ border: none;
+ text-align: center;
+ color: #183966;
+font-weight: bold;
+font-family: 'oswaldregular';
+ }
+ 
+ 
+body.pg_programs .content_div table td:first-child, 
+body.pg_programs .content_div table th:first-child {
+    border-left: none;
+	}
+ 
+body.pg_programs .content_div table th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+ 
+body.pg_programs .content_div table th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+ 
+body.pg_programs .content_div table th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+ 
+body.pg_programs .content_div table tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+ 
+body.pg_programs .content_div table tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+	
+body.pg_programs .content_div table td{
+width: 50%;
+}
+
+body.pg_programs .content_div,
+body.pg_nasp .content_div, 
+body.pg_oat .content_div,
+body.pg_ssd .content_div, 
+body.pg_tsp .content_div, 
+body.pg_twd .content_div {
+	width: 69%;	
+	float: left;
+	padding: 35px;
+	padding-bottom: 0;
+}
+
+body.pg_programs .subpage_subnav_div,
+body.pg_nasp .subpage_subnav_div, 
+body.pg_oat .subpage_subnav_div,
+body.pg_ssd .subpage_subnav_div, 
+body.pg_tsp .subpage_subnav_div, 
+body.pg_twd .subpage_subnav_div {
+	float: left;	
+	background-color: rgba(235,235,235,0.9);
+}
+
+			
+/********************* UL styles***********************/			
+body.pg_programs .content_div table ul{
+text-align: left;			
+padding-left: 8%;
+list-style-type: disc;
+}
+
+body.pg_programs .content_div table li{
+	padding: 5px;
+}
+
+
+
+/************** styles for float UL ***************/
+
+.ul_float li{
+	margin: 0 6px 15px 0;
+	display: block;
+	float: left;
+	background: rgba(253, 145, 3, 0.28);
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+/********************** TWD list styles ***************/
+
+body.pg_twd .content_div ol {
+	list-style: decimal;
+}
+
+body.pg_twd .content_div ol li {
+	margin-left: 7%;
+	padding: 5px;
+	line-height: 1.5;
+}
+
+
+
+
+/********************** APPLY NOW styles ***************/
+.apply_now .apply_button {
+	margin: 1% 0 2% 0;
+	float: left;
+	text-align: center;
+	display: block;
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ff8a00;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.apply_now .apply_button:hover,
+.apply_now .apply_button:active,
+.apply_now .apply_button:focus {
+	background-color: #FFA63D;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+
+
+
+.form_msg {
+	color: rgb(243, 108, 74);
+	font-weight: bold;
+	border: 1px solid;
+	padding: 10px;	
+}
+

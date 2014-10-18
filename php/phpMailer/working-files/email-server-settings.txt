@@ -1,0 +1,15 @@
+Email Server Settings for email.htpwebdesign.ca
+
+-------------------------------------------------------------------
+
+username: email@email.htpwebdesign.ca
+
+password: %9"*!rs+NdeP&>[UA
+
+incoming mail server (ssl): htpwebde.accountservergroup.com 
+
+outgoing mail server (ssl): htpwebde.accountservergroup.com
+
+outgoing mail server port (ssl): 465
+
+-------------------------------------------------------------------

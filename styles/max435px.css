@@ -1,0 +1,10 @@
+@media screen and (max-width:435px){
+	form legend {
+		font-size: 15px;
+	}
+	form #best_time_contact,
+	form #best_time_contact1,
+	form #best_time_contact2{
+		margin:0;
+	}
+}
