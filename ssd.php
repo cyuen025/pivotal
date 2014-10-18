@@ -7,29 +7,26 @@
 <main>
 <div class="inner_wrapper content">
 	<div class="outer_div">
-		<h1>PROGRAMS</h1>
+		<h1>Programs</h1>
 	</div>
     <div class="inner_div">
     	<div class="subpage_subnav_div">
 			<?php include("templates/subpage_subnav.php"); ?>
-        </div><!-- end subpage_subnav_div -->
+        </div><!-- .subpage_subnav_div -->
         <div class="content_div">
         	<!-- content goes here -->
         	<h1 class="pg_title">Software Systems Developer (SSD) </h1>
-
- 
-<img src="images/programs/ssd.jpg" alt="Abstract computer programming code" width="300px" height="200px"/>
-
+            
+            <img src="images/programs/ssd.jpg" alt="Abstract computer programming code" width="300px" height="200px"/>
 
         	<p>If you are an established business or development shop in Vancouver's lower mainland and you need a website or website component developed, or an Android app, consider having BCIT Software System Developer (SSD) students design and build it for you.</p>
 
         	<p>Instructor-supervised teams of four BCIT students are available to design and build your application/web component from March 30, 2015 to April 24.</p>
 
-
 			<!-- A quick link to allow user to jump to the form -->
 			<div class="apply_now">
                <a class="apply_now" href="#form"><div class="apply_button">Apply Now</div></a>
-            </div>
+            </div><!-- .apply_now -->
             <div class="clear"></div>
             
             <h2>Skills</h2>
@@ -60,12 +57,8 @@
 
         	<p>Due to limited availability we cannot guarantee your project will be selected but we would love to hear from you and invite you to apply.  If you are interested, please complete the form and we will contact you with more information and next steps.</p>
 
-
-
 			<!-- Added empty tag to allow Apply Now to jump to this form -->
         	<h2 id="form"></h2>
-
-
 
             <!-- form goes here-->
             <?php
@@ -80,8 +73,8 @@
                 include("templates/application_form.php");
             ?>
             <!-- end form -->
-        </div><!-- end content_div -->
-    </div><!-- end inner_div -->
+        </div><!-- .content_div -->
+    </div><!-- .inner_div -->
 
 <?php
 	include("templates/footer.php");
