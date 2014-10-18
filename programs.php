@@ -6,12 +6,12 @@
 <main>
 <div class="inner_wrapper content">
 	<div class="outer_div">
-		<h1>PROGRAMS</h1>
-	</div>
+		<h1>Programs</h1>
+	</div><!-- .outer_div -->
     <div class="inner_div">
     	<div class="subpage_subnav_div">
 			<?php include("templates/subpage_subnav.php"); ?>
-        </div><!-- end subpage_subnav_div -->
+        </div><!-- .subpage_subnav_div -->
         <div class="content_div">
         	<!-- content goes here -->
             
@@ -153,8 +153,8 @@
             </ul>
             
             <a href="tsp.php">Read More</a>
-        </div><!-- end content_div -->
-    </div><!-- end inner_div -->
+        </div><!-- .content_div -->
+    </div><!-- .inner_div -->
     
 <?php
 	include("templates/footer.php");
