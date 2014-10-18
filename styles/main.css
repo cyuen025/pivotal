@@ -15,6 +15,10 @@
 	text-indent:50px;
 	font-size: 20px;
 	letter-spacing: 10px;
+}
+
+.outer_div h1,
+.htp_content h2{
 	text-transform: uppercase;
 }
 /*End .outer_div style*/
