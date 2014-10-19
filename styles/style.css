@@ -2306,11 +2306,7 @@ footer p {
 		width: 100%;
 		padding: 20px;
 	}
-	body.pg_nasp .content_div .pg_title, 
-	body.pg_oat .content_div .pg_title, 
-	body.pg_ssd .content_div .pg_title, 
-	body.pg_tsp .content_div .pg_title, 
-	body.pg_twd .content_div .pg_title {
+	body.pg_programs .content_div .pg_title {
 		font-size: 20px;
 	}
 	.content_div p{
