@@ -1,9 +1,0 @@
-@media screen and (min-width:1025px) {
-	.subpage_sub_nav {
-		display: block;	
-	}
-	
-	.subpage_sub_nav_tablet {
-		display: none;
-	}
-}
