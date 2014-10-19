@@ -1,7 +1,7 @@
 <?php
     session_start();
     $title = "Programs - TSP";
-    $page = "pg_programs";
+    $page = "pg_programs pg_tsp";
 	include("templates/header.php");
 ?>
 <main>

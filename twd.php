@@ -1,7 +1,7 @@
 <?php
     session_start();
     $title = "Programs - TWD";
-    $page = "pg_programs";
+    $page = "pg_programs pg_twd";
 	include("templates/header.php");
 ?>
 <main>

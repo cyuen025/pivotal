@@ -1,7 +1,7 @@
 <?php
     session_start();
     $title = "Programs - SSD";
-    $page = "pg_programs";
+    $page = "pg_programs pg_ssd";
 	include("templates/header.php");
 ?>
 <main>
