@@ -965,9 +965,11 @@ header .inner_wrapper{
 }
 
 .pg_programs .content_div .pg_title{
-	color: #183966;
-	font-size: 25px;
-	font-family: oswaldbold;
+    font-family: 'oswaldbold';
+    font-size: 25px;
+    color: #183966;
+    font-weight: bold;
+    text-transform: none;
 }
 
 .pg_programs .content_div h2{
@@ -2643,14 +2645,6 @@ footer p {
 	/*end index styles*/
     
 	/*programs styles*/
-    
-    .pg_programs .pg_title {
-        font-family: 'oswaldbold';
-        font-size: 25px;
-        color: #183966;
-        font-weight: bold;
-        text-transform: none;
-    }
     
 	.pg_programs .subpage_subnav_div {
 		float: none;
