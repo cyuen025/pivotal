@@ -12,12 +12,25 @@ h1,h2,h3,h4,h5{
 	font-family: 'oswaldregular';
 }
 
+.pg_programs .content_div h4,
+.pg_nasp .content_div h4,
+.pg_oat .content_div h4,
+.pg_ssd .content_div h4,
+.pg_tsp .content_div h4,
+.pg_twd .content_div h4{
+	font-family: 'oswaldbold';
+}
+
 p, li{
 	font-family: 'Oxygen', sans-serif;
 }
 
 p{
 	text-align:justify;
+}
+
+li{
+	list-style-type: disc;
 }
 
 h1,
