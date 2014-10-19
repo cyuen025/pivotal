@@ -1082,28 +1082,6 @@ header .inner_wrapper{
 	line-height: 1.5;
 }
 
-/*APPLY NOW styles */
-.pg_programs .apply_now a{
-	margin: 1% 0 2% 0;
-	float: left;
-	text-align: center;
-	display: block;
-	width: 170px;
-	height: 40px;
-	line-height: 40px;
-	background-color: rgba(255,138,0,1);
-	color: #fff;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.pg_programs .apply_now a:hover,
-.pg_programs .apply_now a:active,
-.pg_programs .apply_now a:focus {
-	background-color: rgba(255,138,0,0.75);
-	transition: all 0.3s ease;
-}
-
 .form_msg {
 	color: rgb(243, 108, 74);
 	font-weight: bold;
@@ -1460,6 +1438,43 @@ form #best_time_contact2{
 /*End faq.css*/
 
 /*contact.css*/
+
+/*apply button style*/
+.pg_programs .apply_now a,
+.pg_contact .apply_btn{
+	margin: 1% 0 2% 0;
+	float: left;
+	text-align: center;
+	display: block;
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(255,138,0,1);
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.pg_contact .apply_btn{
+	position: absolute;
+	bottom: 15px;
+	left:58%;
+	margin-left:-85px;
+}
+
+.pg_programs .apply_now a:hover,
+.pg_programs .apply_now a:active,
+.pg_programs .apply_now a:focus,
+.pg_contact .apply_btn:hover,
+.pg_contact .apply_btn:active,
+.pg_contact .apply_btn:focus{
+	background-color: rgba(255,138,0,0.75);
+	transition: all 0.3s ease;
+	color:#fff;
+}
+
+/*End apply button style*/
+
 .pg_contact .card{
 	width:48%;
 	height:230px;
@@ -1513,30 +1528,6 @@ form #best_time_contact2{
 	display:block;
 	bottom:0;
 	margin-top: 40px;
-}
-
-.pg_contact .apply_btn {
-	position: absolute;
-	bottom: 15px;
-	left:58%;
-	margin-left:-85px;
-	text-align: center;
-	display: block;
-	width: 170px;
-	height: 40px;
-	line-height: 40px;
-	background-color: #ff8a00;
-	color: #fff;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.pg_contact .apply_btn:hover,
-.pg_contact .apply_btn:active,
-.pg_contact .apply_btn:focus {
-	background-color: #FFA63D;
-	color: #fff;
-	transition: all 0.3s ease;
 }
 
 .pg_contact .card:first-child,
