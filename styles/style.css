@@ -813,7 +813,6 @@ header .inner_wrapper{
 .subpage_sub_nav_expanded div,
 .subpage_sub_nav_expanded_selected div {
 	height: 300px;
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	color: #fff;
 	text-align: center;
 }
@@ -840,6 +839,7 @@ header .inner_wrapper{
 	font-size: 20px;
 	line-height: 1.4;	
 	margin: 10px 0;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 .subpage_sub_nav_expanded p,
