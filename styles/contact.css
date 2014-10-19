@@ -60,7 +60,8 @@
 .pg_contact .apply_btn {
 	position: absolute;
 	bottom: 15px;
-	left: calc(58% - 85px);
+	left:58%;
+	margin-left:-85px;
 	text-align: center;
 	display: block;
 	width: 170px;
