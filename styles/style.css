@@ -964,10 +964,10 @@ header .inner_wrapper{
 	box-shadow: 2px 3px 12px;
 }
 
-.pg_programs .content_div .pg_title,{
+.pg_programs .content_div .pg_title{
 	color: #183966;
-	font-weight: bold;
 	font-size: 25px;
+	font-family: oswaldbold;
 }
 
 .pg_programs .content_div h2{
