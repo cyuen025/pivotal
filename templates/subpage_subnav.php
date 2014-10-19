@@ -1,8 +1,8 @@
 <!-- expandable nav -->
 <nav class="subpage_sub_nav">
     <ul>
-    	<li><a href="#" <?php  if ($page == "pg_programs") echo "class=\"subpage_sub_nav_collapsed_selected\" style=\"display: none;\""; else echo "class=\"subpage_sub_nav_collapsed\""; ?>><h3>Overview</h3></a></li>
-        <a href="programs.php" <?php  if ($page == "pg_programs") echo "class=\"subpage_sub_nav_expanded_selected\" style=\"display: block;\""; else echo "class=\"subpage_sub_nav_expanded\""; ?>>
+    	<li><a href="#" <?php  if ($page == "pg_overview") echo "class=\"subpage_sub_nav_collapsed_selected\" style=\"display: none;\""; else echo "class=\"subpage_sub_nav_collapsed\""; ?>><h3>Overview</h3></a></li>
+        <a href="programs.php" <?php  if ($page == "pg_overview") echo "class=\"subpage_sub_nav_expanded_selected\" style=\"display: block;\""; else echo "class=\"subpage_sub_nav_expanded\""; ?>>
         	<div>
                 <h2>Overview</h2>
                 <hr/>
