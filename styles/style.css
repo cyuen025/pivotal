@@ -1917,12 +1917,7 @@ footer p {
 	/* end homepage responsive*/
 	/* program responsive*/
 	
-	body.pg_programs .content_div, 
-	body.pg_nasp .content_div, 
-	body.pg_oat .content_div, 
-	body.pg_ssd .content_div, 
-	body.pg_tsp .content_div, 
-	body.pg_twd .content_div {
+	.pg_programs .content_div {
 		width: 72%;
 		float: right;
 		padding:14px;
@@ -1940,7 +1935,7 @@ footer p {
 		width:24%;
 	}
 	
-	body.pg_programs .content_div table {
+	.pg_programs .content_div table {
 		width: 100%;     
 	}
 	
@@ -2058,12 +2053,7 @@ footer p {
 	.back li {
 		font-size: 11px;	
 	}
-	body.pg_programs .content_div img,
-	body.pg_nasp .content_div img,
-	body.pg_oat .content_div img,
-	body.pg_ssd .content_div img,
-	body.pg_tsp .content_div img,
-	body.pg_twd .content_div img {
+	.pg_programs .content_div img {
 		margin: 0 0 0 15px;
 		width:200px;
 		height:150px;
@@ -2081,12 +2071,7 @@ footer p {
 	form input, form textarea{
 		width:100%;
 	}
-	body.pg_programs .content_div, 
-	body.pg_nasp .content_div, 
-	body.pg_oat .content_div, 
-	body.pg_ssd .content_div, 
-	body.pg_tsp .content_div, 
-	body.pg_twd .content_div {
+	.pg_programs .content_div {
 		width: 76%;
 		padding: 20px;
 	}
@@ -2328,20 +2313,10 @@ footer p {
 		width:70%;
 		margin:0;
 	}
-	body.pg_programs .subpage_subnav_div,
-	body.pg_nasp .subpage_subnav_div, 
-	body.pg_oat .subpage_subnav_div, 
-	body.pg_ssd .subpage_subnav_div, 
-	body.pg_tsp .subpage_subnav_div, 
-	body.pg_twd .subpage_subnav_div {
+	.pg_programs .subpage_subnav_div {
 		display:none;
 	}
-	body.pg_programs .content_div, 
-	body.pg_nasp .content_div, 
-	body.pg_oat .content_div, 
-	body.pg_ssd .content_div, 
-	body.pg_tsp .content_div, 
-	body.pg_twd .content_div {
+	.pg_programs .content_div {
 		width: 100%;
 		padding: 20px;
 	}
@@ -2683,42 +2658,43 @@ footer p {
 	.sub_nav p{
 		display:none;
 	}
-	/*end index style*/
+	/*end index styles*/
     
-	/*program style*/
-	body.pg_programs .subpage_subnav_div,
-	body.pg_nasp .subpage_subnav_div, 
-	body.pg_oat .subpage_subnav_div, 
-	body.pg_ssd .subpage_subnav_div, 
-	body.pg_tsp .subpage_subnav_div, 
-	body.pg_twd .subpage_subnav_div {
+	/*programs styles*/
+    
+    .pg_programs .pg_title {
+        font-family: 'oswaldbold';
+        font-size: 25px;
+        color: #183966;
+        font-weight: bold;
+        text-transform: none;
+    }
+    
+	.pg_programs .subpage_subnav_div {
 		float: none;
 		width:100%;
 	}
-	body.pg_programs .content_div, 
-	body.pg_nasp .content_div, 
-	body.pg_oat .content_div, 
-	body.pg_ssd .content_div,
-	body.pg_tsp .content_div, 
-	body.pg_twd .content_div {
+    
+	.pg_programs .content_div {
 		width: 100%;
 		float: none;
 	}
+    
 	.subpage_sub_nav_sticky .subpage_sub_nav_sticky_left, 
 	.subpage_sub_nav_sticky .subpage_sub_nav_sticky_right {
 		display: none;
 	}
+    
 	.subpage_sub_nav {
 		width: 100%;
 	}
-	body.pg_nasp .content_div ul li, 
-	body.pg_oat .content_div ul li, 
-	body.pg_ssd .content_div ul li, 
-	body.pg_tsp .content_div ul li, 
-	body.pg_twd .content_div ul li{
+    
+	.pg_programs .content_div ul li {
 		font-size:14px;
 	}
-	/*end program style*/
+    
+	/*end programs style*/
+    
 	/*faq page*/
 	.pg_faq .faq_main h1 {
 		margin-top: 15px;
