@@ -1,7 +1,7 @@
 <?php
     session_start();
     $title = "Programs - OAT";
-    $page = "pg_oat";
+    $page = "pg_programs pg_oat";
 	include("templates/header.php");
 ?>
 <main>

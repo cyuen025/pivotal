@@ -1,6 +1,6 @@
 <?php
     $title = "Programs - NASP";
-    $page = "pg_nasp";
+    $page = "pg_programs pg_nasp";
     session_start();
 	include("templates/header.php");
 ?>
