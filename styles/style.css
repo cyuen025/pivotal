@@ -1101,6 +1101,7 @@ form .radio{
 
 }
 form .radio legend{
+    font-family: 'Oxygen', sans-serif;
 	color:#000;
 }
 form legend{
@@ -1152,6 +1153,7 @@ form label{
 }
 
 form label {
+    font-family: 'Oxygen', sans-serif;
 	font-weight: bold;
 }
 
