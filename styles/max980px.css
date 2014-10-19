@@ -47,7 +47,7 @@
 		display: none;
 	}
 	
-	header .slogan {
+	header .slogan p{
 		top: 40px;
 		left: 195px;
 		font-size: 21px;

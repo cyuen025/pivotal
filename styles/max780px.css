@@ -4,6 +4,10 @@
 		font-size: 16px;	
 	}
 	
+	header .slogan,
+	header .nav_items{
+		right:0;
+	}
 	/* footer responsive */
 	
 	.inner_wrapper,
@@ -198,10 +202,6 @@
 		box-shadow: 2px 2px 3px #787878;
 		border-top: 1px solid #d3d3d3;
 		border-left: 1px solid #d3d3d3;
-	}
-	header .slogan,
-	header .nav_items{
-		right:0;
 	}
 	/* end projects responsive */
 }
