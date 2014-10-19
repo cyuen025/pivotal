@@ -7,7 +7,7 @@
 <main>
 <div class="inner_wrapper content">
 	<div class="outer_div">
-		<h1>PROGRAMS</h1>
+		<h1>Programs</h1>
 	</div><!--End outer_div-->
 
     <div class="inner_div">
