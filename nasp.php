@@ -1,35 +1,43 @@
 <?php
     $title = "Programs - NASP";
-    $page = "pg_nasp";
+    $page = "pg_programs";
     session_start();
 	include("templates/header.php");
 ?>
 <main>
 <div class="inner_wrapper content">
 	<div class="outer_div">
-		<h1>Programs</h1>
-	</div><!-- .outer_div -->
+		<h1>PROGRAMS</h1>
+	</div><!--End outer_div-->
+
     <div class="inner_div">
+
     	<div class="subpage_subnav_div">
 			<?php include("templates/subpage_subnav.php"); ?>
-        </div><!-- .subpage_subnav_div -->
+        </div><!-- end subpage_subnav_div -->
+
         <div class="content_div">
         	<!-- content goes here -->
-        	<h1 class="pg_title">Network Administration and Security Professional (NASP)</h1>
+        	<h1 class="pg_title">Network Administration and Security Professional (NASP)
+            </h1>
             
             <img src="images/programs/nasp.jpg" alt="graphic image for the network administration and security" width="300" height="200"/>
 
-        	<p>BCIT’s NASP program provides employers with IT certified students capable of making an immediate contribution to the goals of the organization.  Sponsored work terms give you an opportunity to meet and work with skilled people who may one day be seeking employment with you.</p>
+        	<p>BCIT’s NASP program provides employers with IT certified students capable of making an immediate contribution to the goals of the organization.  Sponsored work terms give you an opportunity to meet and work with skilled people who may one day be seeking employment with you. </p>
             
-            <p>We are pleased to provide an opportunity for you to work with our highly qualified NASP students. While you evaluate and enlarge their capabilities, they in turn will offer their talents and enthusiasm.</p>
+            <p>We are pleased to provide an opportunity for you to work with our highly qualified NASP students. While you evaluate and enlarge their capabilities, they in turn will offer their talents and enthusiasm. </p>
 
-        	<p>The <span>NASP program</span> fulfills the need for trained entry-level network administration and security professionals. It provides the essential networking and security technical knowledge as well as the essential business and professional skills, such as teamwork and communication, needed for success in administrative and management positions in industry.</p>
+        	<p>The <span>NASP program</span> fulfills the need for trained entry-level network administration and security professionals. It provides the essential networking and security technical knowledge as well as the essential business and professional skills, such as teamwork and communication, needed for success in administrative and management positions in industry. </p>
 
 			<!-- A quick link to allow user to jump to the form -->
 			<div class="apply_now">
-               <a class="apply_now" href="#form"><div class="apply_button">Apply Now</div></a>
-            </div><!-- .apply_now -->
-            <div class="clear"></div>
+                <a class="apply_now" href="#form">
+                    Apply Now
+                </a>
+            </div><!--End apply_now-->
+
+            <div class="clear">
+            </div><!--End clear-->
             
             <h2>Skills</h2>
 
@@ -80,9 +88,9 @@
 
         	<h2>Work-Term Proposal</h2>
         	
-        	<p>Sponsored work terms provide an opportunity to utilize the skills of a trained student for which the employer will offer IT related work experience at no salaried cost.</p>
+        	<p>Sponsored work terms provide an opportunity to utilize the skills of a trained student for which the employer will offer IT related work experience at no salaried cost. </p>
 
-        	<h4>In addition to NASP technical knowledge, students also have professional skills in the following areas:</h4>
+        	<h4>In addition to NASP technical knowledge, students also have professional skills in the following areas: </h4>
 
         	<ul class="ul_float">
         		<li>&#9839; Team Building</li>
@@ -91,7 +99,10 @@
         		<li>&#9839; Organizational Development</li>
         		<li>&#9839; Technical Writing</li>
         	</ul>
-            <div class="clear"></div>
+
+            <div class="clear">
+            </div><!--End clear-->
+
         	<h2>Benefits to the Employer</h2>
 
         	<ul>
@@ -110,7 +121,8 @@
         		<li>Opportunity to network, learn about potential employment opportunities</li>
         	</ul>
 
-        	<h2 id="form">Employer Requirements</h2>
+        	<h2 id="form">Employer Requirements
+            </h2>
 
         	<ul>
         		<li>Please fill out attached form</li>
@@ -133,8 +145,8 @@
                 include("templates/application_form.php");
             ?>
         	<!-- end form -->
-        </div><!-- .content_div -->
-    </div><!-- .inner_div -->
+        </div><!-- end content_div -->
+    </div><!-- end inner_div -->
  
 <?php
 	include("templates/footer.php");

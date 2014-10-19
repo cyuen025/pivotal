@@ -132,7 +132,7 @@
 }
 
 /*APPLY NOW styles */
-.apply_now .apply_button {
+.pg_programs .apply_now a{
 	margin: 1% 0 2% 0;
 	float: left;
 	text-align: center;
@@ -140,17 +140,16 @@
 	width: 170px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #ff8a00;
+	background-color: rgba(255,138,0,1);
 	color: #fff;
 	font-weight: bold;
 	font-size: 20px;
 }
 
-.apply_now .apply_button:hover,
-.apply_now .apply_button:active,
-.apply_now .apply_button:focus {
-	background-color: #FFA63D;
-	color: #fff;
+.pg_programs .apply_now a:hover,
+.pg_programs .apply_now a:active,
+.pg_programs .apply_now a:focus {
+	background-color: rgba(255,138,0,0.75);
 	transition: all 0.3s ease;
 }
 

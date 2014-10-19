@@ -1,36 +1,42 @@
 <?php
     session_start();
     $title = "Programs - TSP";
-    $page = "pg_tsp";
+    $page = "pg_programs";
 	include("templates/header.php");
 ?>
 <main>
 <div class="inner_wrapper content">
 	<div class="outer_div">
-		<h1>Programs</h1>
-	</div><!-- .outer_div -->
+		<h1>PROGRAMS</h1>
+	</div><!--End outer_div-->
+
     <div class="inner_div">
+
     	<div class="subpage_subnav_div">
 			<?php include("templates/subpage_subnav.php"); ?>
-        </div><!-- .subpage_subnav_div -->
+        </div><!-- end subpage_subnav_div -->
+
         <div class="content_div">
         	<!-- content goes here -->
             <h1 class="pg_title">Technology Support Professional (TSP)</h1>
             
             <img src="images/programs/comp.jpg" alt="laptop keybord picture" width="300" height="200"/>
             
-        	<p>BCIT’s TSP program provides employers with IT certified students capable of making an immediate contribution to the goals of the organization.  Sponsored work terms give you an opportunity to meet and work with skilled people who may one day be seeking employment with you.</p>
+        	<p>BCIT’s TSP program provides employers with IT certified students capable of making an immediate contribution to the goals of the organization.  Sponsored work terms give you an opportunity to meet and work with skilled people who may one day be seeking employment with you. </p>
 
         	<p>We are pleased to provide an opportunity for you to work with our highly qualified TSP students. While you evaluate and enlarge their capabilities, they in turn will offer their talents and enthusiasm.</p>
 
-        	<p>The TSP program focuses on providing a solid foundation of IT skills students can build on.</p>
-
+        	<p>The TSP program focuses on providing a solid foundation of IT skills students can build on. </p>
 
 			<!-- A quick link to allow user to jump to the form -->
 			<div class="apply_now">
-               <a class="apply_now" href="#form"><div class="apply_button">Apply Now</div></a>
-            </div><!-- .apply_now -->
-            <div class="clear"></div>
+                <a class="apply_now" href="#form">
+                    Apply Now
+                </a>
+            </div><!--End apply_now-->
+
+            <div class="clear">
+            </div><!--End clear-->
 
 	        <h2>Skills</h2>
             
@@ -54,19 +60,20 @@
                 <li>Systems Rollout/Upgrade</li>
             </ul>
 
-        	<h4>This program is taught in a multi-platform environment with qualified instructors. By the end of the TSP program, students will be able to:</h4>
+
+        	<h4>This program is taught in a multi-platform environment with qualified instructors. By the end of the TSP program, students will be able to: </h4>
 
         	<ul>
         		<li>Build a computer from individual parts based on predefined requirements.</li>
         		<li>Install and configure multiple operating systems such as Windows 7/8, Server 2012, Linux, BSD.</li>
         		<li>Configure machines in a virtual environment.</li>
         		<li>Create routed network environments, both physically and virtually.</li>
-        		<li>Demonstrate understanding of core network concepts (OSI Model, IPv4, DHCP, Routing, File/Print services, Email). /li>
-        		<li>Describe current computing concepts (Cloud computing, Storage Area Networks, Virtualization).</li>
+        		<li>Demonstrate understanding of core network concepts (OSI Model, IPv4, DHCP, Routing, File/Print services, Email). </li>
+        		<li>Describe current computing concepts (Cloud computing, Storage Area Networks, Virtualization). </li>
         		<li>Create a professional resume, and use interview skills to qualify for IT support positions.</li>
         	</ul>
 
-        	<h4>TSP students are required to qualify for the following IT vendor certifications:</h4>
+        	<h4>TSP students are required to qualify for the following IT vendor certifications: </h4>
 
         	<ul>
         		<li>CompTIA A+</li>
@@ -87,7 +94,10 @@
         		<li>&#9839; Organizational Development</li>
         		<li>&#9839; Technical Writing</li>
         	</ul>
-            <div class="clear"></div>
+
+            <div class="clear">
+            </div><!--End clear-->
+
         	<h2>Benefits to the Employer</h2>
 
         	<ul>
@@ -129,8 +139,8 @@
                 include("templates/application_form.php");
             ?>
         	<!-- End form-->
-        </div><!-- .content_div -->
-    </div><!-- .inner_div -->
+        </div><!-- end content_div -->
+    </div><!-- end inner_div -->
 
 <?php
 	include("templates/footer.php");

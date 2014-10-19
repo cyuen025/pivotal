@@ -1,32 +1,39 @@
 <?php
     session_start();
     $title = "Programs - OAT";
-    $page = "pg_oat";
+    $page = "pg_programs";
 	include("templates/header.php");
 ?>
 <main>
 <div class="inner_wrapper content">
 	<div class="outer_div">
-		<h1>Programs</h1>
-	</div><!-- .outer_div -->
+		<h1>PROGRAMS</h1>
+	</div><!--End outer_div -->
+
     <div class="inner_div">
+
     	<div class="subpage_subnav_div">
 			<?php include("templates/subpage_subnav.php"); ?>
-        </div><!-- .subpage_subnav_div -->
+        </div><!-- end subpage_subnav_div -->
+
         <div class="content_div">
         	<!-- content goes here -->
         	<h1 class="pg_title">Office Administrator with Technology (OAT)</h1>
+ 
             <img src="images/programs/oat.jpg" alt="Office Worker And Computer Shows Typing" width="300" height="200"/>
 
         	<p>Students from the Office Administrator with Technology (OAT) program will be available for an eight week full time or 288 hours part time work term opportunity every February and July. These students have completed a highly intensive three month program that includes the following industry certifications:</br>
-
         	Microsoft Office Specialist (MOS) — Word 2013<br>Microsoft Office Specialist (MOS) — Excel 2013</p>
 
 			<!-- A quick link to allow user to jump to the form -->
 			<div class="apply_now">
-               <a class="apply_now" href="#form"><div class="apply_button">Apply Now</div></a>
-            </div><!-- .apply_now -->
-            <div class="clear"></div>
+                <a class="apply_now" href="#form">
+                    Apply Now
+                </a>
+            </div><!--End apply_now -->
+
+            <div class="clear">
+            </div><!--End clear -->
 
 			<h2>Skills</h2>
 
@@ -50,6 +57,7 @@
                 <li>MS Office Applications Support</li>
                 <li>Desktop Publishers/Web Site Maintenance</li>
             </ul>
+
 
         	<h4>As well as courses in: </h4>
 
@@ -80,8 +88,10 @@
 
         	<p>These students appreciate and value the possible hands-on experience and education provided by your organization.</p>
 
+
 			<!-- Added empty tag to allow Apply Now to jump to this form -->
         	<h2 id="form"></h2>
+
 
         	<!--Form field-->
             <?php
@@ -96,8 +106,8 @@
                 include("templates/application_form.php");
             ?>
         	<!-- end form -->
-        </div><!-- .content_div -->
-    </div><!-- .inner_div -->
+        </div><!-- end content_div -->
+    </div><!-- end inner_div -->
 
 <?php
 	include("templates/footer.php");
