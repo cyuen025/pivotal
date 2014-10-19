@@ -1052,20 +1052,6 @@ header .inner_wrapper{
 	background-color: rgba(235,235,235,0.9);
 }
 
-			
-/*UL styles*/			
-.pg_programs .content_div table ul{
-	text-align: left;			
-	padding-left: 8%;
-	list-style-type: disc;
-}
-
-.pg_programs .content_div table li{
-	padding: 5px;
-}
-
-
-
 /*styles for float UL */
 
 .ul_float li{
