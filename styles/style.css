@@ -259,41 +259,6 @@ h1,
 	background-image: url(../images/debut_dark_2x.png);
 	background-size: 200px 200px;
 }
-
-/*apply button style*/
-.pg_programs .apply_now a,
-.pg_contact .apply_btn{
-	margin: 1% 0 2% 0;
-	float: left;
-	text-align: center;
-	display: block;
-	width: 170px;
-	height: 40px;
-	line-height: 40px;
-	background-color: rgba(255,138,0,1);
-	color: #fff;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.pg_contact .apply_btn{
-	position: absolute;
-	bottom: 15px;
-	left:58%;
-	margin-left:-85px;
-}
-
-.pg_programs .apply_now a:hover,
-.pg_programs .apply_now a:active,
-.pg_programs .apply_now a:focus,
-.pg_contact .apply_btn:hover,
-.pg_contact .apply_btn:active,
-.pg_contact .apply_btn:focus{
-	background-color: rgba(255,138,0,0.75);
-	transition: all 0.3s ease;
-	color:#fff;
-}
-/*End apply button style*/
 /*End general.css*/
 
 /*wrapper.css*/
@@ -1035,7 +1000,7 @@ header .inner_wrapper{
 	margin-top: 30px;	
 }
 
-.pg_overview .read_more_btn {
+.pg_overview .content_div a {
 	margin-bottom: 25px;
 	display: block;
 	background-color: #fff;
@@ -1047,11 +1012,10 @@ header .inner_wrapper{
 	border: 2px solid;
 }
 
-.pg_overview .read_more_btn:hover,
-.pg_overview .read_more_btn:focus,
-.pg_overview .read_more_btn:active {
+.pg_programs .content_div a:hover,
+.pg_programs .content_div a:focus,
+.pg_programs .content_div a:active {
 	background-color: #dcf0ff;
-    color: #0182cf;
 }
 
 .pg_programs .content_div h3 {
@@ -1475,6 +1439,42 @@ form #best_time_contact2{
 
 /*contact.css*/
 
+/*apply button style*/
+.pg_programs .apply_now a,
+.pg_contact .apply_btn{
+	margin: 1% 0 2% 0;
+	float: left;
+	text-align: center;
+	display: block;
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(255,138,0,1);
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.pg_contact .apply_btn{
+	position: absolute;
+	bottom: 15px;
+	left:58%;
+	margin-left:-85px;
+}
+
+.pg_programs .apply_now a:hover,
+.pg_programs .apply_now a:active,
+.pg_programs .apply_now a:focus,
+.pg_contact .apply_btn:hover,
+.pg_contact .apply_btn:active,
+.pg_contact .apply_btn:focus{
+	background-color: rgba(255,138,0,0.75);
+	transition: all 0.3s ease;
+	color:#fff;
+}
+
+/*End apply button style*/
+
 .pg_contact .card{
 	width:48%;
 	height:230px;
@@ -1742,10 +1742,6 @@ footer p {
 /*max1024px.css*/
 @media screen and (max-width:1024px) {
 
-    .subpage_sub_nav {
-		display: none;	
-	}
-    
 	.subpage_sub_nav_tablet {
 		width: 100%;
 		max-width:215px;
@@ -1812,9 +1808,11 @@ footer p {
 		display: none;
 	}
 	
-	header .slogan p{
+	header .slogan{
 		top: 40px;
 		left: 195px;
+	}
+	header .slogan p{
 		font-size: 21px;
 	}
 	
