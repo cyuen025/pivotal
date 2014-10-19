@@ -22,7 +22,7 @@
                             <li><a href="#pfaq_oat_03" title="">Suspendisse tincidunt tincidunt nisi, non hendrerit lacus pulvinar vel. Suspendisse tincidunt tincidunt nisi, non hendrerit lacus pulvinar vel?</a></li>
                             <li><a href="#pfaq_oat_04" title="">Nullam consectetur blandit sem . Nullam consectetur blandit sem?</a></li>
                         </ul>
-                    </div>
+                    </div><!-- .program_faq -->
                     
                     <h2 id="pfaq_oat_01">Morbi eget massa at ipsum auctor pretium?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non.</p>
