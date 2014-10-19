@@ -1,6 +1,6 @@
 <?php
     $title = "Programs";
-    $page = "pg_programs";
+    $page = "pg_programs pg_overview";
 	include("templates/header.php");
 ?>
 <main>
