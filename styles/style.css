@@ -2344,11 +2344,11 @@ footer p {
 		background-color: rgba(0,43,94,0.8);
 	}
 	
-	body.pg_nasp .content_div ul li, 
-	body.pg_oat .content_div ul li, 
-	body.pg_ssd .content_div ul li, 
-	body.pg_tsp .content_div ul li, 
-	body.pg_twd .content_div ul li{
+	.pg_nasp .content_div ul li, 
+	.pg_oat .content_div ul li, 
+	.pg_ssd .content_div ul li, 
+	.pg_tsp .content_div ul li, 
+	.pg_twd .content_div ul li{
 		padding:2px;
 	}
 	footer{
@@ -2798,12 +2798,7 @@ footer p {
 	#submit {
 		font-size: 12px;
 	}
-	body.pg_programs .content_div img, 
-	body.pg_nasp .content_div img, 
-	body.pg_oat .content_div img, 
-	body.pg_ssd .content_div img, 
-	body.pg_tsp .content_div img, 
-	body.pg_twd .content_div img {
+	.pg_programs .content_div img {
 		width: 100%;
 		height: auto;
 		margin-bottom:20px;
