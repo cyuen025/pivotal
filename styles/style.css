@@ -1735,6 +1735,10 @@ footer p {
 /*max1024px.css*/
 @media screen and (max-width:1024px) {
 
+    .subpage_sub_nav {
+		display: none;	
+	}
+    
 	.subpage_sub_nav_tablet {
 		width: 100%;
 		max-width:215px;
