@@ -15,7 +15,7 @@
 <![endif]-->
 </head>
 
-<body class="<?php echo $page; ?>">
+<body class="pg_programs <?php echo $page; ?>">
 	<header>
         <nav>
             <div class="logo">

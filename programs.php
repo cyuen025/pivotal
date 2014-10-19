@@ -1,6 +1,6 @@
 <?php
     $title = "Programs";
-    $page = "pg_programs pg_overview";
+    $page = "pg_overview";
 	include("templates/header.php");
 ?>
 <main>
@@ -52,7 +52,7 @@
                 <li>IT Proposal Writing</li>
             </ul>
             
-            <a href="nasp.php" class="read_more_btn">Read More</a>
+            <a href="nasp.php">Read More</a>
             
         	<h2>Office Administrator with Technology (OAT)</h2>
             
@@ -81,7 +81,7 @@
                 <li>Desktop Publishers/Web Site Maintenance</li>
             </ul>
 
-			<a href="oat.php" class="read_more_btn">Read More</a>
+			<a href="oat.php">Read More</a>
 
         	<h2>Software Systems Developer (SSD)</h2> 
             
@@ -105,7 +105,7 @@
                 <li>e-Commerce</li>
             </ul>
             
-            <a href="ssd.php" class="read_more_btn">Read More</a>
+            <a href="ssd.php">Read More</a>
 
         	<h2>Technical Web Designer (TWD)</h2> 
             
@@ -124,7 +124,7 @@
                 <li>CSS preprocessor –Intro to SASS &amp; LESS</li>
             </ul>
             
-            <a href="twd.php" class="read_more_btn">Read More</a>
+            <a href="twd.php">Read More</a>
 
         	<h2>Technology Support Professional (TSP)</h2>  
              
@@ -152,7 +152,7 @@
                 <li>Systems Rollout/Upgrade</li>
             </ul>
             
-            <a href="tsp.php" class="read_more_btn">Read More</a>
+            <a href="tsp.php">Read More</a>
         </div><!-- .content_div -->
     </div><!-- .inner_div -->
     
