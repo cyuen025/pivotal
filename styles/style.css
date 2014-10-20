@@ -2236,6 +2236,9 @@ footer p {
 	header{
 		height:50px;
 	}
+	.outer_div h1{
+		margin:0;
+	}
 	header .nav_items{
 		display:none;
 	}
@@ -2298,15 +2301,6 @@ footer p {
 	}
 	.htp_content:nth-child(2){
 		display:block;
-	}
-	.inner_div .htp_content a{
-		float:left;
-		width:27%;
-	}
-	.htp_content p{
-		float:right;
-		width:70%;
-		margin:0;
 	}
 	.pg_programs .subpage_subnav_div {
 		display:none;
