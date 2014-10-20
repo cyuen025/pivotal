@@ -2340,11 +2340,6 @@ footer p {
 		font-size: 25px;
 	}
 	
-	.mobile_sub_nav_spacer {
-		height: 20px;
-		background-color: rgba(0,43,94,0.8);
-	}
-	
 	.pg_nasp .content_div ul li, 
 	.pg_oat .content_div ul li, 
 	.pg_ssd .content_div ul li, 
@@ -2372,37 +2367,8 @@ footer p {
 		margin-right:20px;
 	}
 	.outer_div{
-		height:61px;
-		background-color: rgb(61, 121, 197);
+		display:none;
 	}
-	.outer_div .mobile_footer_nav{
-		display:block;
-	}
-	.outer_div .mobile_footer_nav a{
-		display:block;
-	}
-
-	.outer_div .mobile_footer_nav li:first-child,
-	.outer_div .mobile_footer_nav li:nth-child(2),
-	.outer_div .mobile_footer_nav li:nth-child(3),
-	.outer_div .mobile_footer_nav li:nth-child(4){
-		width:25%;
-	}
-	.outer_div .mobile_footer_nav li:nth-child(4){
-		border-right:0;
-	}
-	.outer_div .mobile_footer_nav li:nth-child(5){
-		clear:both;
-	}
-	.outer_div .mobile_footer_nav li:nth-child(5),
-	.outer_div .mobile_footer_nav li:nth-child(6),
-	.outer_div .mobile_footer_nav li:nth-child(7),
-	.outer_div .mobile_footer_nav li:nth-child(8),
-	.outer_div .mobile_footer_nav li:nth-child(9){
-		width:20%;
-		border-top:1px solid #fff;
-	}
-
 
 	/* contact styles */
 	

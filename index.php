@@ -177,7 +177,6 @@
         </ul>
     </nav><!-- .sub_nav -->
     <div class="clear"></div>
-    <div class="mobile_sub_nav_spacer"></div>
     
 <?php
 	include("templates/footer.php");

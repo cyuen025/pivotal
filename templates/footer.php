@@ -1,17 +1,5 @@
 	<div class="outer_div">
-		<nav class="mobile_footer_nav">
-			<ul>
-		        <li><a href="programs.php">PROGRAMS</a></li>
-				<li><a href="projects.php">PROJECTS</a></li>
-				<li><a href="faq.php">FAQ</a></li>
-				<li><a href="contact.php">CONTACT</a></li>
-				<li><a href="nasp.php">NASP</a></li>
-				<li><a href="oat.php">OAT</a></li>
-				<li><a href="ssd.php">SSD</a></li>
-				<li><a href="twd.php">TWD</a></li>
-				<li><a href="tsp.php">TSP</a></li>
-			</ul>
-		</nav>
+		
 	</div>
 </div><!-- end inner_wrapper -->
 </main>
