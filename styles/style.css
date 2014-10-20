@@ -2362,8 +2362,8 @@ footer p {
 	.inner_wrapper {
 		min-width: 100%;
 		padding: 0;
-		transition: all 0.5s ease;
-		-webkit-transition: all 0.5s ease;
+		transition: all 0.8s ease;
+		-webkit-transition: all 0.8s ease;
 	}
 	.inner_div .htp_content,
 	.htp_content_tablet,
@@ -2382,6 +2382,9 @@ footer p {
 		height:auto;
 		border-top:2px solid #c3c3c3;
 		overflow:auto;
+	}
+	.htp_content p{
+		margin: 0 0 20px;
 	}
 	.htp_content:nth-child(2){
 		display:block;
