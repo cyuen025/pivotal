@@ -2109,6 +2109,7 @@ footer p {
 		float:left;
 		width:50%;
 		box-sizing:border-box;
+		margin:0;
 	}
 	.pg_faq .faq_main h1{
 		margin-top:30px;
