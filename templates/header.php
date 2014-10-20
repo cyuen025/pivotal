@@ -9,10 +9,6 @@
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-	
-<!--[if IE]>
-    <link rel = "stylesheet" type = "text/css" href = "styles/for_ie.css" />
-<![endif]-->
 </head>
 
 <body class="<?php echo $page; ?>">
