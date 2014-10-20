@@ -2336,6 +2336,7 @@ footer p {
 	.new_page_nav li a:active {
 		background-color: #005B00;	
 		transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
 	}
 	
 	.new_page_nav li:last-child a {
@@ -2361,6 +2362,8 @@ footer p {
 	.inner_wrapper {
 		min-width: 100%;
 		padding: 0;
+		transition: all 0.8s ease;
+		-webkit-transition: all 0.8s ease;
 	}
 	.inner_div .htp_content,
 	.htp_content_tablet,
