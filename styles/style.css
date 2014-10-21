@@ -2382,6 +2382,7 @@ footer p {
 		height:auto;
 		border-top:2px solid #c3c3c3;
 		overflow:auto;
+		padding:0 3.5%;
 	}
 	.htp_content p{
 		margin: 0 0 20px;
