@@ -1762,7 +1762,7 @@ footer p {
 @media screen and (max-width:980px) {
 	
 	div {
-		box-sizing:margin-box;
+		box-sizing:border-box;
 	}
 	
 	.inner_wrapper,
@@ -1865,7 +1865,25 @@ footer p {
 	.flip-container, .front, .back {
 		width: 100%;
 	}
-	
+	.sub_nav .flip-container:first-child .flipper .front{
+		background-color: rgba(3,52,101,1);
+	}
+
+	.sub_nav .flip-container:nth-child(2) .flipper .front{
+		background-color: rgba(1,130,207,1);
+	}
+
+	.sub_nav .flip-container:nth-child(3) .flipper .front{
+		background-color: rgba(52,100,140,1);
+	}
+
+	.sub_nav .flip-container:nth-child(4) .flipper .front{
+		background-color: rgba(29,94,176,1);
+	}
+
+	.sub_nav .flip-container:last-child .flipper .front{
+		background-color: rgba(35,112,210,1);
+	}
 	.back li {
 		font-size: 13px;	
 	}
@@ -2261,7 +2279,6 @@ footer p {
 		cursor: pointer;
 		text-indent:-5000px;
 	}
-	
 	/* page nav styles */
 	.outer_wrapper .menu {
 		display: block;	
@@ -2270,23 +2287,6 @@ footer p {
 	.page_nav {
 		display: none;	
 	}
-	
-	.no_js .page_nav {
-		display: block;	
-	}
-	
-	 .no_js .page_nav ul {
-	  	display: block;	   
-  	}
-  
-  	.no_js .page_nav li {
-	   width: 50%;	  
-   	}
-   
-  	.no_js .page_nav li:nth-child(3) a,
-  	.no_js .page_nav li:nth-child(7) a {
-	   border-left: none;  
-   	}
 	
 	.show_menu .content {
 		-moz-transform: translateX(60%);
