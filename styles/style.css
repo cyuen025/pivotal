@@ -254,7 +254,7 @@ h1,
 	top: 0;
 	left: 0;
 	display: none;
-	width: 100%;
+	width: 225px;
 	min-height: 100%;
 	background-image: url(../images/debut_dark_2x.png);
 	background-size: 200px 200px;
@@ -2305,7 +2305,6 @@ footer p {
 		margin: 0;
 		width: 100%;
 		border: none;
-		height: 46px;
 	}
 	.new_page_nav li a{
 		border-left: none;
@@ -2322,14 +2321,9 @@ footer p {
 		font-family: "oswaldbold";
 		letter-spacing: 2px;
 	}
-	.new_page_nav li:nth-child(3) a,
-	.new_page_nav li:nth-child(4) a,
-	.new_page_nav li:nth-child(5) a,
-	.new_page_nav li:nth-child(6) a,
-	.new_page_nav li:nth-child(7) a,
-	.new_page_nav li:nth-child(8) a{
-		text-indent: 10%;
-		font-size:17px;
+	.new_page_nav li>ul>li a {
+		text-indent: 15%;
+		font-size: 17px;
 	}
 	.new_page_nav li a:focus,
 	.new_page_nav li a:hover,
@@ -2339,31 +2333,31 @@ footer p {
 		-webkit-transition: all 0.3s ease;
 	}
 	
-	.new_page_nav li:last-child a {
-		border-bottom: 1px solid #5C5A5A;	
-	}
-	
 	.new_page_nav li a:hover,
 	.new_page_nav li a:active,
 	.new_page_nav li a:focus {
 		background-color: #646464;	
 	}
 	
-	.new_page_nav li:last-child a {
+	.new_page_nav>ul>li:nth-of-type(6) a {
 		border-bottom: 1px solid #5C5A5A;	
 	}
+    
 	.outer_div{
 		background-color: rgb(61, 121, 197);
 	}
+    
 	.inner_div{
 		background-color: rgba(255,255,255,1);
 	}
+    
 	/* end mobile menu*/
+    
 	.inner_wrapper {
 		min-width: 100%;
 		padding: 0;
-		transition: all 0.8s ease;
-		-webkit-transition: all 0.8s ease;
+		transition: all 0.4s ease;
+		-webkit-transition: all 0.4s ease;
 	}
 	.inner_div .htp_content,
 	.htp_content_tablet,
