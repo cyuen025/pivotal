@@ -254,10 +254,13 @@ h1,
 	top: 0;
 	left: 0;
 	display: none;
-	width: 225px;
+	width: 0;
 	min-height: 100%;
 	background-image: url(../images/debut_dark_2x.png);
 	background-size: 200px 200px;
+}
+.show_menu .outer_wrapper .menu{
+	width:225px;
 }
 /*End general.css*/
 
@@ -1865,25 +1868,6 @@ footer p {
 	.flip-container, .front, .back {
 		width: 100%;
 	}
-	.sub_nav .flip-container:first-child .flipper .front{
-		background-color: rgba(3,52,101,1);
-	}
-
-	.sub_nav .flip-container:nth-child(2) .flipper .front{
-		background-color: rgba(1,130,207,1);
-	}
-
-	.sub_nav .flip-container:nth-child(3) .flipper .front{
-		background-color: rgba(52,100,140,1);
-	}
-
-	.sub_nav .flip-container:nth-child(4) .flipper .front{
-		background-color: rgba(29,94,176,1);
-	}
-
-	.sub_nav .flip-container:last-child .flipper .front{
-		background-color: rgba(35,112,210,1);
-	}
 	.back li {
 		font-size: 13px;	
 	}
@@ -2327,8 +2311,13 @@ footer p {
 	}
 	.new_page_nav li a:focus,
 	.new_page_nav li a:hover,
-	.new_page_nav li a:active {
-		background-color: #005B00;	
+	.new_page_nav li a:active{
+		background-color: #005B00;
+	}
+	.new_page_nav li a:focus,
+	.new_page_nav li a:hover,
+	.new_page_nav li a:active,
+	.outer_wrapper .menu {	
 		transition: all 0.3s ease;
 		-webkit-transition: all 0.3s ease;
 	}
