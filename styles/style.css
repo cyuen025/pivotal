@@ -2219,42 +2219,51 @@ footer p {
 /*End max680px.css*/
 
 /*max580px.css*/
-@media screen and (max-width:580px){
+@media screen and (max-width:580px) {
+    
 	body {
 		background-image: none;
 	}
+    
 	header{
-		height:50px;
+		height: 60px;
 	}
+    
 	.outer_div h1{
-		margin:0;
+		margin: 0;
 	}
+    
 	/* for mobile menu*/
-	header .inner_wrapper{
-		display:block;
+	header .inner_wrapper {
+		display: block;
 	}
-	header nav{
-		display:none;
+    
+	header nav {
+		display: none;
 	}
-	header a{
-		float:right;
-		font-size:30px;
-		text-decoration:none;
+    
+	header a {
+		float: right;
+		font-size: 40px;
+		text-decoration: none;
 		color: #F17C0E;
-		line-height:50px;
-		margin-right:20px;
-		font-family:"oswaldbold";
+		line-height: 60px;
+		margin-right: 20px;
+		font-family: "oswaldbold";
 	}
-	.small_tablet_nav{
-		display:none;
+    
+	.small_tablet_nav {
+		display: none;
 	}
+    
 	.mobile_menu {
 		display: block;
 		float: left;
 		margin-left: 13px;
+        margin-top: 9px;
 		border: 0;
-		width: 23px;
-		height: 46px;
+		width: 40px;
+		height: 40px;
 		background-color: transparent;
 		background-image: url(../images/icon_menu.png);
 		background-size: contain;
@@ -2301,12 +2310,12 @@ footer p {
 		font-size: 1.2em;
 		text-decoration: none;
 		display: block;
-		text-indent: 10px;	
+		text-indent: 20px;	
 		font-family: "oswaldbold";
 		letter-spacing: 2px;
 	}
 	.new_page_nav li>ul>li a {
-		text-indent: 15%;
+        text-indent: 40px;
 		font-size: 17px;
 	}
 	.new_page_nav li a:focus,
@@ -2733,7 +2742,7 @@ footer p {
 		font-size:13px;
 	}
 	footer p {
-		font-size: 10px;
+		font-size: 11px;
 		padding-left:10px;
 	}
 	footer img {
